@@ -53,5 +53,4 @@ public class samplePlayer implements player
 		int ind = rand.nextInt(p.size());
 		return new Pentago.move(p.get(ind).getR(), p.get(ind).getC(), rand.nextInt(4), rand.nextBoolean());
 	}
-
 }
